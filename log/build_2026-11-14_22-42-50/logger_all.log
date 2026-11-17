@@ -1,0 +1,368 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7dfacfa24dd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dfacfa24ad0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dfacfa24ad0>>)
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.089s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zwe-let-yar/ros2_ws'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extension 'ros'
+[0.110s] DEBUG:colcon.colcon_core.package_identification:Package 'src/battery_interfaces' with type 'ros.ament_cmake' and name 'battery_interfaces'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[0.110s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_interfaces) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_interfaces) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_interfaces) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_interfaces) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_interfaces) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_interfaces) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_interfaces) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_interfaces) by extension 'ros'
+[0.111s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_task_interfaces' with type 'ros.ament_cmake' and name 'robot_task_interfaces'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_py) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_py) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_py) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_py) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_py) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_py) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_py) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_py) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_task_py) by extension 'ros'
+[0.112s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_task_py' with type 'ros.ament_python' and name 'robot_task_py'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_fundamentals_examples' with type 'ros.ament_cmake' and name 'ros2_fundamentals_examples'
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.126s] DEBUG:colcon.colcon_core.verb:Building package 'battery_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zwe-let-yar/ros2_ws/build/battery_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zwe-let-yar/ros2_ws/install/battery_interfaces', 'merge_install': False, 'path': '/home/zwe-let-yar/ros2_ws/src/battery_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'robot_task_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'robot_task_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'robot_task_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'robot_task_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'robot_task_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'robot_task_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'robot_task_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'robot_task_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'robot_task_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.126s] DEBUG:colcon.colcon_core.verb:Building package 'robot_task_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces', 'merge_install': False, 'path': '/home/zwe-let-yar/ros2_ws/src/robot_task_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_args' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_target' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.126s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.126s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_fundamentals_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples', 'merge_install': False, 'path': '/home/zwe-let-yar/ros2_ws/src/ros2_fundamentals_examples', 'symlink_install': False, 'test_result_base': None}
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.127s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zwe-let-yar/ros2_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zwe-let-yar/ros2_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/zwe-let-yar/ros2_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'robot_task_py' build argument 'cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'robot_task_py' build argument 'cmake_target' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'robot_task_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'robot_task_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'robot_task_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'robot_task_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'robot_task_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'robot_task_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'robot_task_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.127s] DEBUG:colcon.colcon_core.verb:Building package 'robot_task_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zwe-let-yar/ros2_ws/build/robot_task_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zwe-let-yar/ros2_ws/install/robot_task_py', 'merge_install': False, 'path': '/home/zwe-let-yar/ros2_ws/src/robot_task_py', 'symlink_install': False, 'test_result_base': None}
+[0.127s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zwe-let-yar/ros2_ws/src/battery_interfaces' with build type 'ament_cmake'
+[0.128s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zwe-let-yar/ros2_ws/src/battery_interfaces'
+[0.130s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.130s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.134s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zwe-let-yar/ros2_ws/src/robot_task_interfaces' with build type 'ament_cmake'
+[0.134s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zwe-let-yar/ros2_ws/src/robot_task_interfaces'
+[0.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.141s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zwe-let-yar/ros2_ws/src/ros2_fundamentals_examples' with build type 'ament_cmake'
+[0.142s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zwe-let-yar/ros2_ws/src/ros2_fundamentals_examples'
+[0.142s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zwe-let-yar/ros2_ws/build/battery_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/battery_interfaces -- -j16 -l16
+[0.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/robot_task_interfaces -- -j16 -l16
+[0.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples -- -j16 -l16
+[0.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples -- -j16 -l16
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/robot_task_interfaces -- -j16 -l16
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/build/robot_task_interfaces
+[0.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_fundamentals_examples)
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples' for CMake module files
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples' for CMake config files
+[0.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_fundamentals_examples', 'cmake_prefix_path')
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/cmake_prefix_path.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/cmake_prefix_path.sh'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/bin'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/pkgconfig/ros2_fundamentals_examples.pc'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages'
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_fundamentals_examples', 'pythonpath')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/pythonpath.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/pythonpath.sh'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/bin'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.sh'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.bash'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.zsh'
+[0.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/colcon-core/packages/ros2_fundamentals_examples)
+[0.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_fundamentals_examples)
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples' for CMake module files
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples' for CMake config files
+[0.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_fundamentals_examples', 'cmake_prefix_path')
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/cmake_prefix_path.dsv'
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/cmake_prefix_path.sh'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/bin'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/pkgconfig/ros2_fundamentals_examples.pc'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages'
+[0.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_fundamentals_examples', 'pythonpath')
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/pythonpath.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/pythonpath.sh'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/bin'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.sh'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.bash'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.zsh'
+[0.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/colcon-core/packages/ros2_fundamentals_examples)
+[0.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_task_interfaces)
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces' for CMake module files
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/build/robot_task_interfaces
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces' for CMake config files
+[0.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_task_interfaces', 'cmake_prefix_path')
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/cmake_prefix_path.dsv'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/cmake_prefix_path.sh'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib'
+[0.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_task_interfaces', 'ld_library_path_lib')
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/ld_library_path_lib.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/ld_library_path_lib.sh'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/bin'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib/pkgconfig/robot_task_interfaces.pc'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib/python3.12/site-packages'
+[0.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_task_interfaces', 'pythonpath')
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/pythonpath.dsv'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/pythonpath.sh'
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/bin'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/package.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/package.sh'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/package.bash'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/package.zsh'
+[0.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/colcon-core/packages/robot_task_interfaces)
+[0.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_task_interfaces)
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces' for CMake module files
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces' for CMake config files
+[0.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_task_interfaces', 'cmake_prefix_path')
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/cmake_prefix_path.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/cmake_prefix_path.sh'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib'
+[0.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_task_interfaces', 'ld_library_path_lib')
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/ld_library_path_lib.dsv'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/ld_library_path_lib.sh'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/bin'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib/pkgconfig/robot_task_interfaces.pc'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib/python3.12/site-packages'
+[0.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_task_interfaces', 'pythonpath')
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/pythonpath.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/hook/pythonpath.sh'
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/bin'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/package.dsv'
+[0.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/package.sh'
+[0.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/package.bash'
+[0.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/robot_task_interfaces/package.zsh'
+[0.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/share/colcon-core/packages/robot_task_interfaces)
+[0.551s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zwe-let-yar/ros2_ws/src/robot_task_py' with build type 'ament_python'
+[0.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_task_py', 'ament_prefix_path')
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_py/share/robot_task_py/hook/ament_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/robot_task_py/share/robot_task_py/hook/ament_prefix_path.sh'
+[0.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.700s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zwe-let-yar/ros2_ws/src/robot_task_py'
+[0.700s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.120s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_lib, sdist, build_ext, dist_info, register, install_egg_info, build_clib, egg_info, clean, test, init_catalog, develop, install_headers, install_data, saveopts, upload_docs, build_scripts, extract_messages, install, bdist_dumb, compile_catalog, bdist_egg, build_py, symlink_data, rotate, build, upload, update_catalog, easy_install, check, editable_wheel, bdist, install_scripts, setopt, bdist_rpm, alias
+[1.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zwe-let-yar/ros2_ws/src/robot_task_py': CMAKE_PREFIX_PATH=/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples:/home/zwe-let-yar/ros2_ws/install/battery_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zwe-let-yar/ros2_ws/build/robot_task_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_task_py build --build-base /home/zwe-let-yar/ros2_ws/build/robot_task_py/build install --record /home/zwe-let-yar/ros2_ws/build/robot_task_py/install.log --install-scripts $base/lib/robot_task_py --single-version-externally-managed install_data
+[1.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zwe-let-yar/ros2_ws/build/battery_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/battery_interfaces -- -j16 -l16
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zwe-let-yar/ros2_ws/build/battery_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/build/battery_interfaces
+[1.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(battery_interfaces)
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces' for CMake module files
+[1.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zwe-let-yar/ros2_ws/build/battery_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/build/battery_interfaces
+[1.457s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces' for CMake config files
+[1.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_interfaces', 'cmake_prefix_path')
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/cmake_prefix_path.dsv'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/cmake_prefix_path.sh'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib'
+[1.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_interfaces', 'ld_library_path_lib')
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/ld_library_path_lib.dsv'
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/ld_library_path_lib.sh'
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/bin'
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/pkgconfig/battery_interfaces.pc'
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages'
+[1.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_interfaces', 'pythonpath')
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/pythonpath.dsv'
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/pythonpath.sh'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/bin'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/package.dsv'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/package.sh'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/package.bash'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/package.zsh'
+[1.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/colcon-core/packages/battery_interfaces)
+[1.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(battery_interfaces)
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces' for CMake module files
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces' for CMake config files
+[1.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_interfaces', 'cmake_prefix_path')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/cmake_prefix_path.dsv'
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/cmake_prefix_path.sh'
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib'
+[1.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_interfaces', 'ld_library_path_lib')
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/ld_library_path_lib.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/ld_library_path_lib.sh'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/bin'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/pkgconfig/battery_interfaces.pc'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages'
+[1.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_interfaces', 'pythonpath')
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/pythonpath.dsv'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/hook/pythonpath.sh'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/bin'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/package.dsv'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/package.sh'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/package.bash'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/package.zsh'
+[1.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/colcon-core/packages/battery_interfaces)
+[1.470s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zwe-let-yar/ros2_ws/src/py_srvcli' with build type 'ament_python'
+[1.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[1.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.626s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zwe-let-yar/ros2_ws/src/py_srvcli'
+[1.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_py' for CMake module files
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_py' for CMake config files
+[1.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zwe-let-yar/ros2_ws/src/robot_task_py' returned '0': CMAKE_PREFIX_PATH=/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples:/home/zwe-let-yar/ros2_ws/install/battery_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zwe-let-yar/ros2_ws/build/robot_task_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_task_py build --build-base /home/zwe-let-yar/ros2_ws/build/robot_task_py/build install --record /home/zwe-let-yar/ros2_ws/build/robot_task_py/install.log --install-scripts $base/lib/robot_task_py --single-version-externally-managed install_data
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_py/bin'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/pkgconfig/robot_task_py.pc'
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages'
+[1.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_task_py', 'pythonpath')
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_py/share/robot_task_py/hook/pythonpath.dsv'
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/robot_task_py/share/robot_task_py/hook/pythonpath.sh'
+[1.634s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/robot_task_py/bin'
+[1.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_task_py)
+[1.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zwe-let-yar/ros2_ws/install/robot_task_py/share/robot_task_py/package.dsv'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/robot_task_py/share/robot_task_py/package.sh'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/robot_task_py/share/robot_task_py/package.bash'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/robot_task_py/share/robot_task_py/package.zsh'
+[1.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zwe-let-yar/ros2_ws/install/robot_task_py/share/colcon-core/packages/robot_task_py)
+[2.007s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_lib, sdist, build_ext, dist_info, register, install_egg_info, build_clib, egg_info, clean, test, init_catalog, develop, install_headers, install_data, saveopts, upload_docs, build_scripts, extract_messages, install, bdist_dumb, compile_catalog, bdist_egg, build_py, symlink_data, rotate, build, upload, update_catalog, easy_install, check, editable_wheel, bdist, install_scripts, setopt, bdist_rpm, alias
+[2.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zwe-let-yar/ros2_ws/src/py_srvcli': CMAKE_PREFIX_PATH=/home/zwe-let-yar/ros2_ws/install/battery_interfaces:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples:/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib:/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/zwe-let-yar/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/zwe-let-yar/ros2_ws/build/py_srvcli/build install --record /home/zwe-let-yar/ros2_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed install_data
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/py_srvcli' for CMake module files
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/py_srvcli' for CMake config files
+[2.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zwe-let-yar/ros2_ws/src/py_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/zwe-let-yar/ros2_ws/install/battery_interfaces:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples:/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib:/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/zwe-let-yar/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/zwe-let-yar/ros2_ws/build/py_srvcli/build install --record /home/zwe-let-yar/ros2_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed install_data
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/py_srvcli/bin'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib/python3.12/site-packages'
+[2.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zwe-let-yar/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[2.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zwe-let-yar/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/zwe-let-yar/ros2_ws/install/py_srvcli/bin'
+[2.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[2.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zwe-let-yar/ros2_ws/install/py_srvcli/share/py_srvcli/package.dsv'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/py_srvcli/share/py_srvcli/package.sh'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/py_srvcli/share/py_srvcli/package.bash'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/zwe-let-yar/ros2_ws/install/py_srvcli/share/py_srvcli/package.zsh'
+[2.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zwe-let-yar/ros2_ws/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[2.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.460s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.467s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.478s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zwe-let-yar/ros2_ws/install/local_setup.sh'
+[2.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zwe-let-yar/ros2_ws/install/_local_setup_util_sh.py'
+[2.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zwe-let-yar/ros2_ws/install/setup.sh'
+[2.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zwe-let-yar/ros2_ws/install/local_setup.bash'
+[2.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zwe-let-yar/ros2_ws/install/setup.bash'
+[2.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zwe-let-yar/ros2_ws/install/local_setup.zsh'
+[2.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zwe-let-yar/ros2_ws/install/setup.zsh'

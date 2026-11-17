@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c6bc066f67e2a10e6986.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "battery_interfaces__py",
+					"jsonFile" : "directory-battery_interfaces__py-62c9e29cf37913704b0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zwe-let-yar/ros2_ws/build/battery_interfaces/battery_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "battery_interfaces__rs",
+					"jsonFile" : "directory-battery_interfaces__rs-de7bc90c559540865fd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zwe-let-yar/ros2_ws/build/battery_interfaces/battery_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "battery_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_battery_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_battery_interfaces_egg-343683964a44d3de9f86.json",
+					"name" : "ament_cmake_python_build_battery_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_battery_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_battery_interfaces-2971789d17d04e5a860a.json",
+					"name" : "ament_cmake_python_copy_battery_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces-1cf4d8d2e6bc44043b92.json",
+					"name" : "battery_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces__cpp-9c221e62b5b6361f797c.json",
+					"name" : "battery_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "battery_interfaces__py::@e5dba2d0bac13042f361",
+					"jsonFile" : "target-battery_interfaces__py-6e066ce00a3e6175f651.json",
+					"name" : "battery_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces__rosidl_generator_c-4fc28bee764e660338c6.json",
+					"name" : "battery_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces__rosidl_generator_py-431301ac7cf9d134163c.json",
+					"name" : "battery_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces__rosidl_generator_type_description-436eff0c0cf330f7203c.json",
+					"name" : "battery_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces__rosidl_typesupport_c-9d6c587fc6415e695aa2.json",
+					"name" : "battery_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces__rosidl_typesupport_cpp-18eec6eb6a5c43091010.json",
+					"name" : "battery_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces__rosidl_typesupport_fastrtps_c-92cbff54b076a3cabb89.json",
+					"name" : "battery_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces__rosidl_typesupport_fastrtps_cpp-fb5048a4f81ef24ed83c.json",
+					"name" : "battery_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces__rosidl_typesupport_introspection_c-c14588d9ad78c3e3b668.json",
+					"name" : "battery_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces__rosidl_typesupport_introspection_cpp-4707bf1fd0cb1a71134b.json",
+					"name" : "battery_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "battery_interfaces__rs::@56aa374fcfbba4d19ca4",
+					"jsonFile" : "target-battery_interfaces__rs-c33087e2db2da0d577ae.json",
+					"name" : "battery_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces_s__rosidl_typesupport_c-631392df780a19ac030d.json",
+					"name" : "battery_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces_s__rosidl_typesupport_fastrtps_c-5a58af5d13748f565f85.json",
+					"name" : "battery_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces_s__rosidl_typesupport_introspection_c-e2f2209e2211d5de71e9.json",
+					"name" : "battery_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_interfaces_uninstall-f60c9a0934f342326127.json",
+					"name" : "battery_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5e0cdb259cf21926d1de.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zwe-let-yar/ros2_ws/build/battery_interfaces",
+		"source" : "/home/zwe-let-yar/ros2_ws/src/battery_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

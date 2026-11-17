@@ -1,0 +1,47 @@
+[0.020s] Invoking command in '/home/zwe-let-yar/ros2_ws/build/mycobot_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/mycobot_ros2 -- -j16 -l16
+[0.074s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.660s] Error parsing '/home/zwe-let-yar/ros2_ws/src/mycobot_ros2/package.xml':
+[3.124s] Traceback (most recent call last):
+[3.125s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[3.125s]     root = dom.parseString(data)
+[3.125s]            ^^^^^^^^^^^^^^^^^^^^^
+[3.126s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString
+[3.126s]     return expatbuilder.parseString(string)
+[3.126s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.126s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[3.126s]     return builder.parseString(string)
+[3.127s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.127s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[3.127s]     parser.Parse(string, True)
+[3.127s] xml.parsers.expat.ExpatError: XML or text declaration not at start of entity: line 24, column 0
+[3.127s] 
+[3.127s] During handling of the above exception, another exception occurred:
+[3.128s] 
+[3.128s] Traceback (most recent call last):
+[3.128s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.128s]     main()
+[3.128s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.129s]     raise e
+[3.129s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.129s]     package = parse_package_string(
+[3.129s]               ^^^^^^^^^^^^^^^^^^^^^
+[3.129s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[3.130s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[3.130s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/zwe-let-yar/ros2_ws/src/mycobot_ros2/package.xml':
+[3.130s] The manifest contains invalid XML:
+[3.130s] XML or text declaration not at start of entity: line 24, column 0
+[3.185s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.185s]   execute_process(/usr/bin/python3
+[3.185s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.186s]   /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/package.xml
+[3.186s]   /home/zwe-let-yar/ros2_ws/build/mycobot_ros2/ament_cmake_core/package.cmake)
+[3.186s]   returned error code 1
+[3.186s] Call Stack (most recent call first):
+[3.186s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.187s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[3.187s]   CMakeLists.txt:34 (ament_package)
+[3.187s] 
+[3.187s] [0m
+[3.187s] -- Configuring incomplete, errors occurred!
+[3.190s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[3.193s] Invoked command in '/home/zwe-let-yar/ros2_ws/build/mycobot_ros2' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/mycobot_ros2 -- -j16 -l16

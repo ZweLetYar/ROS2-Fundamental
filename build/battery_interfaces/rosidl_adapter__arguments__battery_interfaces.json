@@ -1,0 +1,6 @@
+{
+  "package_name": "battery_interfaces",
+  "non_idl_tuples": [
+    "/home/zwe-let-yar/ros2_ws/src/battery_interfaces:srv/GetBatteryStatus.srv"
+  ]
+}

@@ -1,0 +1,40 @@
+[0.017s] Invoking command in '/home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zwe-let-yar/ros2_ws/src/mycobot_ros2 -DCMAKE_INSTALL_PREFIX=/home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2
+[0.099s] -- The C compiler identification is GNU 13.3.0
+[0.183s] -- The CXX compiler identification is GNU 13.3.0
+[0.207s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.390s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.391s] -- Detecting C compile features
+[0.392s] -- Detecting C compile features - done
+[0.415s] -- Detecting CXX compiler ABI info
+[0.592s] -- Detecting CXX compiler ABI info - done
+[0.612s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.612s] -- Detecting CXX compile features
+[0.613s] -- Detecting CXX compile features - done
+[0.616s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.848s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.005s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.141s] -- Configuring done (1.1s)
+[1.144s] -- Generating done (0.0s)
+[1.146s] -- Build files have been written to: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2
+[1.156s] Invoked command in '/home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zwe-let-yar/ros2_ws/src/mycobot_ros2 -DCMAKE_INSTALL_PREFIX=/home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2
+[1.157s] Invoking command in '/home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2 -- -j16 -l16
+[1.220s] Invoked command in '/home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2 -- -j16 -l16
+[1.234s] Invoking command in '/home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2
+[1.245s] -- Install configuration: ""
+[1.245s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/ament_index/resource_index/package_run_dependencies/mycobot_ros2
+[1.246s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/ament_index/resource_index/parent_prefix_path/mycobot_ros2
+[1.246s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/environment/ament_prefix_path.sh
+[1.247s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/environment/ament_prefix_path.dsv
+[1.247s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/environment/path.sh
+[1.247s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/environment/path.dsv
+[1.247s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/local_setup.bash
+[1.247s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/local_setup.sh
+[1.247s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/local_setup.zsh
+[1.247s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/local_setup.dsv
+[1.248s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/package.dsv
+[1.248s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/ament_index/resource_index/packages/mycobot_ros2
+[1.248s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/cmake/mycobot_ros2Config.cmake
+[1.248s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/cmake/mycobot_ros2Config-version.cmake
+[1.248s] -- Installing: /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/install/mycobot_ros2/share/mycobot_ros2/package.xml
+[1.250s] Invoked command in '/home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/src/mycobot_ros2/build/mycobot_ros2

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: robot-task-py
+Version: 0.0.0
+Summary: Python ROS 2 Action Server and Client
+Maintainer: User
+Maintainer-email: user@example.com
+License: Apache-2.0
+License-File: LICENSE

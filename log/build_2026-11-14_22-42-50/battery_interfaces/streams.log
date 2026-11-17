@@ -1,0 +1,177 @@
+[0.023s] Invoking command in '/home/zwe-let-yar/ros2_ws/build/battery_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/battery_interfaces -- -j16 -l16
+[0.053s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.144s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.169s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.191s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.432s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.633s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.854s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.884s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.892s] -- Configuring done (0.8s)
+[0.924s] -- Generating done (0.0s)
+[0.932s] -- Build files have been written to: /home/zwe-let-yar/ros2_ws/build/battery_interfaces
+[0.967s] [  5%] Built target battery_interfaces__rosidl_generator_type_description
+[0.967s] [  5%] Built target battery_interfaces__rs
+[0.977s] [  5%] Built target ament_cmake_python_copy_battery_interfaces
+[0.988s] [  8%] Built target battery_interfaces__cpp
+[0.994s] [ 22%] Built target battery_interfaces__rosidl_generator_c
+[1.038s] [ 31%] Built target battery_interfaces__rosidl_typesupport_introspection_cpp
+[1.038s] [ 40%] Built target battery_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.045s] [ 48%] Built target battery_interfaces__rosidl_typesupport_introspection_c
+[1.049s] [ 57%] Built target battery_interfaces__rosidl_typesupport_c
+[1.050s] [ 65%] Built target battery_interfaces__rosidl_typesupport_cpp
+[1.051s] [ 74%] Built target battery_interfaces__rosidl_typesupport_fastrtps_c
+[1.071s] [ 74%] Built target battery_interfaces
+[1.090s] [ 77%] Built target battery_interfaces__py
+[1.118s] [ 82%] Built target battery_interfaces__rosidl_generator_py
+[1.144s] [100%] Built target battery_interfaces_s__rosidl_typesupport_introspection_c
+[1.144s] [100%] Built target battery_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.145s] [100%] Built target battery_interfaces_s__rosidl_typesupport_c
+[1.179s] running egg_info
+[1.198s] writing battery_interfaces.egg-info/PKG-INFO
+[1.198s] writing dependency_links to battery_interfaces.egg-info/dependency_links.txt
+[1.199s] writing top-level names to battery_interfaces.egg-info/top_level.txt
+[1.229s] reading manifest file 'battery_interfaces.egg-info/SOURCES.txt'
+[1.230s] writing manifest file 'battery_interfaces.egg-info/SOURCES.txt'
+[1.252s] [100%] Built target ament_cmake_python_build_battery_interfaces_egg
+[1.263s] Invoked command in '/home/zwe-let-yar/ros2_ws/build/battery_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/battery_interfaces -- -j16 -l16
+[1.265s] Invoking command in '/home/zwe-let-yar/ros2_ws/build/battery_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/build/battery_interfaces
+[1.274s] -- Install configuration: ""
+[1.274s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/ament_index/resource_index/rosidl_interfaces/battery_interfaces
+[1.274s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/srv/GetBatteryStatus.json
+[1.274s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[1.274s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[1.274s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/get_battery_status.h
+[1.274s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[1.274s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__functions.c
+[1.275s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__type_support.c
+[1.275s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__functions.h
+[1.275s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__struct.h
+[1.275s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__description.c
+[1.275s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__type_support.h
+[1.275s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[1.275s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.275s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/environment/library_path.sh
+[1.275s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/environment/library_path.dsv
+[1.275s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_generator_c.so
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__rosidl_typesupport_fastrtps_c.h
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__type_support.c
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__rosidl_typesupport_introspection_c.h
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.276s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_introspection_c.so
+[1.277s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_c.so
+[1.277s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[1.277s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[1.277s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[1.278s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__traits.hpp
+[1.278s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__struct.hpp
+[1.278s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__type_support.hpp
+[1.278s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__builder.hpp
+[1.278s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/get_battery_status.hpp
+[1.278s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[1.279s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.279s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[1.279s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[1.279s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[1.279s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.279s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/dds_fastrtps
+[1.279s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[1.279s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.279s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.280s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[1.280s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[1.280s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[1.280s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__type_support.cpp
+[1.280s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/get_battery_status__rosidl_typesupport_introspection_cpp.hpp
+[1.280s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.280s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_cpp.so
+[1.281s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/environment/pythonpath.sh
+[1.281s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/environment/pythonpath.dsv
+[1.281s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces-0.0.0-py3.12.egg-info
+[1.281s] -- Installing: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.281s] -- Installing: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.281s] -- Installing: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[1.281s] -- Installing: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[1.281s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces
+[1.281s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.282s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/_battery_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.282s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/srv
+[1.282s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/srv/_get_battery_status.py
+[1.282s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/srv/_get_battery_status_s.c
+[1.282s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/srv/__init__.py
+[1.282s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/_battery_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.282s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.282s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/_battery_interfaces_s.ep.rosidl_typesupport_c.c
+[1.282s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_c.so
+[1.283s] -- Installing: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/__init__.py
+[1.314s] Listing '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces'...
+[1.314s] Compiling '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/__init__.py'...
+[1.314s] Listing '/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/srv'...
+[1.318s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.319s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.320s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_c.so
+[1.320s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_generator_py.so
+[1.320s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/rust
+[1.320s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/rust/Cargo.toml
+[1.321s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/rust/build.rs
+[1.321s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/rust/src
+[1.321s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/rust/src/lib.rs
+[1.321s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/rust/src/srv
+[1.321s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/rust/src/srv/rmw.rs
+[1.321s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/rust/src/srv.rs
+[1.321s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/srv/GetBatteryStatus.idl
+[1.322s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/srv/GetBatteryStatus.srv
+[1.322s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/ament_index/resource_index/package_run_dependencies/battery_interfaces
+[1.322s] -- Installing: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/ament_index/resource_index/parent_prefix_path/battery_interfaces
+[1.322s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/environment/ament_prefix_path.sh
+[1.322s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/environment/ament_prefix_path.dsv
+[1.322s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/environment/path.sh
+[1.322s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/environment/path.dsv
+[1.322s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/local_setup.bash
+[1.322s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/local_setup.sh
+[1.323s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/local_setup.zsh
+[1.323s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/local_setup.dsv
+[1.323s] -- Installing: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/package.dsv
+[1.323s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/ament_index/resource_index/packages/battery_interfaces
+[1.323s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_generator_cExport.cmake
+[1.323s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.323s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.323s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.323s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.324s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.324s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_cExport.cmake
+[1.324s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.324s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_generator_cppExport.cmake
+[1.324s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.324s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.324s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.324s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.324s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_cppExport.cmake
+[1.324s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.325s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_generator_pyExport.cmake
+[1.325s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.325s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.325s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.325s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.325s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.325s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.325s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.325s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.326s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[1.326s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfacesConfig.cmake
+[1.326s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfacesConfig-version.cmake
+[1.326s] -- Installing: /home/zwe-let-yar/ros2_ws/install/battery_interfaces/share/battery_interfaces/package.xml
+[1.327s] Invoked command in '/home/zwe-let-yar/ros2_ws/build/battery_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/build/battery_interfaces

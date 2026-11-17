@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-624f2d762dcf9b84391c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "robot_task_interfaces__py",
+					"jsonFile" : "directory-robot_task_interfaces__py-f43cccf27796fa911a77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces/robot_task_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "robot_task_interfaces__rs",
+					"jsonFile" : "directory-robot_task_interfaces__rs-72e77f288247af3242eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces/robot_task_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "robot_task_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robot_task_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robot_task_interfaces_egg-c278a63ae8b5f3c12b93.json",
+					"name" : "ament_cmake_python_build_robot_task_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robot_task_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robot_task_interfaces-340982eaaa7124b2a953.json",
+					"name" : "ament_cmake_python_copy_robot_task_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces-420d359b20c6e5e0fa3b.json",
+					"name" : "robot_task_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces__cpp-b01fcd8fd64df6df5ae7.json",
+					"name" : "robot_task_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robot_task_interfaces__py::@b3a105c23e4c83b629bd",
+					"jsonFile" : "target-robot_task_interfaces__py-49fe717c02af39e41498.json",
+					"name" : "robot_task_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces__rosidl_generator_c-d79c1f8910a0e8bf6c97.json",
+					"name" : "robot_task_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces__rosidl_generator_py-ad80927cbe9bdd9b36ea.json",
+					"name" : "robot_task_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces__rosidl_generator_type_description-d45b1eb6cc6322ea25f2.json",
+					"name" : "robot_task_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces__rosidl_typesupport_c-4635cd75d3fdb6d8bc81.json",
+					"name" : "robot_task_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces__rosidl_typesupport_cpp-b897959ecfbaa5322f00.json",
+					"name" : "robot_task_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces__rosidl_typesupport_fastrtps_c-29fe4cdf7ccd5f801376.json",
+					"name" : "robot_task_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces__rosidl_typesupport_fastrtps_cpp-c00c3a379da195b3c3a0.json",
+					"name" : "robot_task_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces__rosidl_typesupport_introspection_c-5ffac4bb3b031c983e58.json",
+					"name" : "robot_task_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces__rosidl_typesupport_introspection_cpp-6641d5bdfbb48586e828.json",
+					"name" : "robot_task_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "robot_task_interfaces__rs::@eb700db8ce93ce261f7a",
+					"jsonFile" : "target-robot_task_interfaces__rs-2661070fa7284b361632.json",
+					"name" : "robot_task_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces_s__rosidl_typesupport_c-2d7af5b8e9d02376e2ed.json",
+					"name" : "robot_task_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces_s__rosidl_typesupport_fastrtps_c-35f903ff127fa1d9177d.json",
+					"name" : "robot_task_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces_s__rosidl_typesupport_introspection_c-86026e6f4b8a4f09283a.json",
+					"name" : "robot_task_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_task_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_task_interfaces_uninstall-b1d92c25cd7459504530.json",
+					"name" : "robot_task_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-852e39d5ce06aa14120e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces",
+		"source" : "/home/zwe-let-yar/ros2_ws/src/robot_task_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "battery_interfaces__py",
+		"source" : "/home/zwe-let-yar/ros2_ws/build/battery_interfaces/battery_interfaces__py"
+	}
+}

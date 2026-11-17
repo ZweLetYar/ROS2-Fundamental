@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/robot_task_interfaces -- -j16 -l16
+[0.073s] [  2%] Built target robot_task_interfaces__rosidl_generator_type_description
+[0.074s] [  5%] Built target robot_task_interfaces__rs
+[0.083s] [  5%] Built target ament_cmake_python_copy_robot_task_interfaces
+[0.095s] [ 20%] Built target robot_task_interfaces__rosidl_generator_c
+[0.097s] [ 22%] Built target robot_task_interfaces__cpp
+[0.120s] [ 37%] Built target robot_task_interfaces__rosidl_typesupport_introspection_cpp
+[0.121s] [ 40%] Built target robot_task_interfaces__rosidl_typesupport_introspection_c
+[0.123s] [ 57%] Built target robot_task_interfaces__rosidl_typesupport_fastrtps_c
+[0.123s] [ 57%] Built target robot_task_interfaces__rosidl_typesupport_c
+[0.127s] [ 74%] Built target robot_task_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.128s] [ 74%] Built target robot_task_interfaces__rosidl_typesupport_cpp
+[0.150s] [ 74%] Built target robot_task_interfaces
+[0.175s] [ 77%] Built target robot_task_interfaces__py
+[0.201s] [ 82%] Built target robot_task_interfaces__rosidl_generator_py
+[0.224s] [ 88%] Built target robot_task_interfaces_s__rosidl_typesupport_c
+[0.226s] [ 94%] Built target robot_task_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.227s] [100%] Built target robot_task_interfaces_s__rosidl_typesupport_introspection_c
+[0.256s] running egg_info
+[0.267s] writing robot_task_interfaces.egg-info/PKG-INFO
+[0.268s] writing dependency_links to robot_task_interfaces.egg-info/dependency_links.txt
+[0.268s] writing top-level names to robot_task_interfaces.egg-info/top_level.txt
+[0.299s] reading manifest file 'robot_task_interfaces.egg-info/SOURCES.txt'
+[0.299s] writing manifest file 'robot_task_interfaces.egg-info/SOURCES.txt'
+[0.323s] [100%] Built target ament_cmake_python_build_robot_task_interfaces_egg

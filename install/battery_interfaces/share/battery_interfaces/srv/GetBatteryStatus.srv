@@ -1,0 +1,6 @@
+bool refresh
+---
+float32 voltage
+string status
+
+

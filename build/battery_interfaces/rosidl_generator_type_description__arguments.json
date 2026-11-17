@@ -1,0 +1,11 @@
+{
+  "package_name": "battery_interfaces",
+  "output_dir": "/home/zwe-let-yar/ros2_ws/build/battery_interfaces/rosidl_generator_type_description/battery_interfaces",
+  "idl_tuples": [
+    "/home/zwe-let-yar/ros2_ws/build/battery_interfaces/rosidl_adapter/battery_interfaces:srv/GetBatteryStatus.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

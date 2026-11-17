@@ -1,0 +1,23 @@
+[0.743s] Invoking command in '/home/zwe-let-yar/ros2_ws/src/robot_task_py': CMAKE_PREFIX_PATH=/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples:/home/zwe-let-yar/ros2_ws/install/battery_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zwe-let-yar/ros2_ws/build/robot_task_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_task_py build --build-base /home/zwe-let-yar/ros2_ws/build/robot_task_py/build install --record /home/zwe-let-yar/ros2_ws/build/robot_task_py/install.log --install-scripts $base/lib/robot_task_py --single-version-externally-managed install_data
+[0.906s] running egg_info
+[0.916s] writing ../../build/robot_task_py/robot_task_py.egg-info/PKG-INFO
+[0.916s] writing dependency_links to ../../build/robot_task_py/robot_task_py.egg-info/dependency_links.txt
+[0.916s] writing entry points to ../../build/robot_task_py/robot_task_py.egg-info/entry_points.txt
+[0.916s] writing requirements to ../../build/robot_task_py/robot_task_py.egg-info/requires.txt
+[0.916s] writing top-level names to ../../build/robot_task_py/robot_task_py.egg-info/top_level.txt
+[0.938s] reading manifest file '../../build/robot_task_py/robot_task_py.egg-info/SOURCES.txt'
+[0.938s] adding license file 'LICENSE'
+[0.938s] writing manifest file '../../build/robot_task_py/robot_task_py.egg-info/SOURCES.txt'
+[0.939s] running build
+[0.939s] running build_py
+[0.939s] running install
+[0.943s] running install_lib
+[0.954s] running install_data
+[0.954s] running install_egg_info
+[0.981s] removing '/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages/robot_task_py-0.0.0-py3.12.egg-info' (and everything under it)
+[0.981s] Copying ../../build/robot_task_py/robot_task_py.egg-info to /home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages/robot_task_py-0.0.0-py3.12.egg-info
+[0.982s] running install_scripts
+[1.080s] Installing action_client script to /home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/robot_task_py
+[1.080s] Installing action_server script to /home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/robot_task_py
+[1.080s] writing list of installed files to '/home/zwe-let-yar/ros2_ws/build/robot_task_py/install.log'
+[1.104s] Invoked command in '/home/zwe-let-yar/ros2_ws/src/robot_task_py' returned '0': CMAKE_PREFIX_PATH=/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples:/home/zwe-let-yar/ros2_ws/install/battery_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zwe-let-yar/ros2_ws/build/robot_task_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_interfaces/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/robot_task_py/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/zwe-let-yar/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_task_py build --build-base /home/zwe-let-yar/ros2_ws/build/robot_task_py/build install --record /home/zwe-let-yar/ros2_ws/build/robot_task_py/install.log --install-scripts $base/lib/robot_task_py --single-version-externally-managed install_data

@@ -1,0 +1,11 @@
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/uninstall.dir
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/ros2_fundamentals_examples_uninstall.dir
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/ament_cmake_python_copy_ros2_fundamentals_examples.dir
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/ament_cmake_python_build_ros2_fundamentals_examples_egg.dir
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/test.dir
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/edit_cache.dir
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/rebuild_cache.dir
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/list_install_components.dir
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/install.dir
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/install/local.dir
+/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples/CMakeFiles/install/strip.dir

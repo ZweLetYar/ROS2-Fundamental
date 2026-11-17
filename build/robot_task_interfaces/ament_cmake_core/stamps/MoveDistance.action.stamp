@@ -1,0 +1,9 @@
+float32 distance_m
+float32 speed_mps
+---
+bool success
+float32 distance_traveled_m
+string message
+---
+float32 distance_remaining_m
+float32 percent_complete

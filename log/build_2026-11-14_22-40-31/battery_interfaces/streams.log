@@ -1,0 +1,18 @@
+[0.016s] Invoking command in '/home/zwe-let-yar/ros2_ws/build/battery_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/battery_interfaces -- -j16 -l16
+[0.057s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.176s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.239s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.242s] -- Found action_msgs: 2.0.4 (/opt/ros/jazzy/share/action_msgs/cmake)
+[0.289s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.290s]   rosidl_generate_interfaces() the passed file 'action/MoveDistance.action'
+[0.290s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.290s]   '/home/zwe-let-yar/ros2_ws/src/battery_interfaces'
+[0.290s] Call Stack (most recent call first):
+[0.290s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[0.290s] 
+[0.290s] [0m
+[0.290s] -- Configuring incomplete, errors occurred!
+[0.293s] gmake: *** [Makefile:829: cmake_check_build_system] Error 1
+[0.295s] Invoked command in '/home/zwe-let-yar/ros2_ws/build/battery_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/battery_interfaces -- -j16 -l16

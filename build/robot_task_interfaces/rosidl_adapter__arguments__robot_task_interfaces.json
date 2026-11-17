@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_task_interfaces",
+  "non_idl_tuples": [
+    "/home/zwe-let-yar/ros2_ws/src/robot_task_interfaces:action/MoveDistance.action"
+  ]
+}

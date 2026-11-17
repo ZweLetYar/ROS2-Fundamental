@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zwe-let-yar/ros2_ws/install/robot_task_py:/home/zwe-let-yar/ros2_ws/install/py_srvcli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples -- -j16 -l16
+[0.046s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.258s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.276s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.282s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.352s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.354s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.431s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.490s] -- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.490s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.573s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.656s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.656s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.656s] -- Added test 'lint_cmake' to check CMake code style
+[0.657s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.657s] -- Added test 'xmllint' to check XML markup files
+[0.659s] -- Configuring done (0.6s)
+[0.666s] -- Generating done (0.0s)
+[0.669s] -- Build files have been written to: /home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples
+[0.729s] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[0.890s] running egg_info
+[0.901s] writing ros2_fundamentals_examples.egg-info/PKG-INFO
+[0.901s] writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+[0.901s] writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+[0.932s] reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.933s] writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.954s] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg

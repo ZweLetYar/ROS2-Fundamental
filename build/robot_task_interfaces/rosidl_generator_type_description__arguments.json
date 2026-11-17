@@ -1,0 +1,13 @@
+{
+  "package_name": "robot_task_interfaces",
+  "output_dir": "/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces/rosidl_generator_type_description/robot_task_interfaces",
+  "idl_tuples": [
+    "/home/zwe-let-yar/ros2_ws/build/robot_task_interfaces/rosidl_adapter/robot_task_interfaces:action/MoveDistance.idl"
+  ],
+  "include_paths": [
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

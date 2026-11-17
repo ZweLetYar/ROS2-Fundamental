@@ -1,0 +1,3 @@
+[console_scripts]
+action_client = robot_task_py.action_client:main
+action_server = robot_task_py.action_server:main

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "battery_interfaces/srv/GetBatteryStatus_Request",
+      "fields": [
+        {
+          "name": "refresh",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "battery_interfaces/srv/GetBatteryStatus_Request",
+      "hash_string": "RIHS01_106e374f449486a9a331aab27a5803c987742fd3adf4e70b037df8f805a78876"
+    }
+  ]
+}

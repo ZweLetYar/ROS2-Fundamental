@@ -1,0 +1,47 @@
+[0.010s] Invoking command in '/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples -- -j16 -l16
+[0.084s] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[0.237s] running egg_info
+[0.248s] writing ros2_fundamentals_examples.egg-info/PKG-INFO
+[0.248s] writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+[0.248s] writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+[0.278s] reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.278s] writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.300s] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
+[0.312s] Invoked command in '/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples -- -j16 -l16
+[0.332s] Invoking command in '/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples
+[0.349s] -- Install configuration: ""
+[0.350s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples
+[0.350s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/py_minimal_publisher.py
+[0.350s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/__init__.py
+[0.351s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/include
+[0.351s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.sh
+[0.351s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.dsv
+[0.351s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info
+[0.351s] -- Installing: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.352s] -- Installing: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.352s] -- Installing: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/PKG-INFO
+[0.352s] -- Installing: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/top_level.txt
+[0.352s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples
+[0.352s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_publisher.py
+[0.353s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/__init__.py
+[0.384s] Listing '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples'...
+[0.384s] Compiling '/home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_publisher.py'...
+[0.384s] *** Sorry: IndentationError: expected an indented block after class definition on line 21 (py_minimal_publisher.py, line 22)
+[0.388s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_publisher.py
+[0.388s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/package_run_dependencies/ros2_fundamentals_examples
+[0.389s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/parent_prefix_path/ros2_fundamentals_examples
+[0.389s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.sh
+[0.389s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.dsv
+[0.389s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.sh
+[0.389s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.dsv
+[0.389s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.bash
+[0.389s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.sh
+[0.389s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.zsh
+[0.389s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.dsv
+[0.389s] -- Installing: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv
+[0.389s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/packages/ros2_fundamentals_examples
+[0.390s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.390s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig.cmake
+[0.390s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig-version.cmake
+[0.390s] -- Up-to-date: /home/zwe-let-yar/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.xml
+[0.391s] Invoked command in '/home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zwe-let-yar/ros2_ws/build/ros2_fundamentals_examples

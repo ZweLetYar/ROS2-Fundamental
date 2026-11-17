@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_task_interfaces/action/MoveDistance.action
+// generated code does not contain a copyright notice
+
+
+module robot_task_interfaces {
+  module action {
+    struct MoveDistance_Goal {
+      float distance_m;
+
+      float speed_mps;
+    };
+    struct MoveDistance_Result {
+      boolean success;
+
+      float distance_traveled_m;
+
+      string message;
+    };
+    struct MoveDistance_Feedback {
+      float distance_remaining_m;
+
+      float percent_complete;
+    };
+  };
+};

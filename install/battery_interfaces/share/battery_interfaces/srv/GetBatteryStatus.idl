@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from battery_interfaces/srv/GetBatteryStatus.srv
+// generated code does not contain a copyright notice
+
+
+module battery_interfaces {
+  module srv {
+    struct GetBatteryStatus_Request {
+      boolean refresh;
+    };
+    struct GetBatteryStatus_Response {
+      float voltage;
+
+      string status;
+    };
+  };
+};
